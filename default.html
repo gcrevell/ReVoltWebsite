@@ -49,17 +49,17 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
+                    <li>
+                        <a class="#page-scroll" href="#page-top">Welcome</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#aboutme">About Me</a>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#whativedone">What I've Done</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#aboutme">About Me</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact Me</a>
@@ -75,78 +75,110 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To My Portfolio</div>
-                <div class="intro-heading">ReVolt Applications</div>
-                <a href="#aboutme" class="page-scroll btn btn-xl">About Me</a>
-                <a href="#aboutme" class="scroll-down" address="true"></a>
+                <div class="intro-lead-in">Hey</div>
+                <div class="intro-heading">Way</div>
+                
             </div>
         </div>
+        <a href="#portfolio" class="scroll-down" address="true"></a>
     </header>
     
-    <!-- About Section -->
-    <!-- Team Section -->
-    <section id="aboutme" class="bg-light-gray">
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About Me</h2>
-                    <h3 class="section-subheading text-muted"></h3>
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Some of the things I've worked on.</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4">
-                    <!--<div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                            <h4>Kay Garland</h4>
-                            <p class="text-muted">Lead Designer</p>
-                            <ul class="list-inline social-buttons">
-                                <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                </li>
-                            </ul>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioNotifyMe" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
-                     -->
+                        </div>
+                        <img src="img/portfolio/NotifyMe Icon.png" class="img-responsive" alt="">
+                            </a>
+                    <div class="portfolio-caption">
+                        <h4>NotifyMe</h4>
+                        <p class="text-muted">iOS Application</p>
+                    </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/me.jpg" class="img-responsive img-circle" alt="">
-                            <h4>Gabriel Revells</h4>
-                            <p class="text-muted"></p>
-                            <ul class="list-inline social-buttons">
-                                <li><a href="https://github.com/gcrevell"><i class="fa fa-github"></i></a>
-                                </li>
-                                <li><a href="https://www.facebook.com/wowza7125"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href="files/resume.pdf" title="Resumé"><i class="fa fa-file-text-o"></i></a>
-                                </li>
-                            </ul>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioBreaker" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
+                        </div>
+                        <img src="img/portfolio/breaker.png" class="img-responsive" alt="">
+                            </a>
+                    <div class="portfolio-caption">
+                        <h4>Puzzle Breaker</h4>
+                        <p class="text-muted">iOS Application</p>
+                    </div>
                 </div>
-                <div class="col-sm-4">
-                    <!--
-                    <div class="team-member">
-                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                            <h4>Diana Pertersen</h4>
-                            <p class="text-muted">Lead Developer</p>
-                            <ul class="list-inline social-buttons">
-                                <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                </li>
-                            </ul>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="https://github.com/gcrevell" class="portfolio-link" data-toggle="modal" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
-                     -->
+                        </div>
+                        <img src="img/portfolio/GitHub.png" class="img-responsive" alt="">
+                            </a>
+                    <div class="portfolio-caption">
+                        <h4>Other</h4>
+                        <p class="text-muted">Check out my other projects on GitHub</p>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">I am currently a senior software engineering major at Michigan Technological University.</p>
-                </div>
+                <!--
+                 <div class="col-md-4 col-sm-6 portfolio-item">
+                 <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                 <div class="portfolio-hover">
+                 <div class="portfolio-hover-content">
+                 <i class="fa fa-plus fa-3x"></i>
+                 </div>
+                 </div>
+                 <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+                 </a>
+                 <div class="portfolio-caption">
+                 <h4>Golden</h4>
+                 <p class="text-muted">Website Design</p>
+                 </div>
+                 </div>
+                 <div class="col-md-4 col-sm-6 portfolio-item">
+                 <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                 <div class="portfolio-hover">
+                 <div class="portfolio-hover-content">
+                 <i class="fa fa-plus fa-3x"></i>
+                 </div>
+                 </div>
+                 <img src="img/portfolio/escape.png" class="img-responsive" alt="">
+                 </a>
+                 <div class="portfolio-caption">
+                 <h4>Escape</h4>
+                 <p class="text-muted">Website Design</p>
+                 </div>
+                 </div>
+                 <div class="col-md-4 col-sm-6 portfolio-item">
+                 <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                 <div class="portfolio-hover">
+                 <div class="portfolio-hover-content">
+                 <i class="fa fa-plus fa-3x"></i>
+                 </div>
+                 </div>
+                 <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                 </a>
+                 <div class="portfolio-caption">
+                 <h4>Dreams</h4>
+                 <p class="text-muted">Website Design</p>
+                 </div>
+                 </div>
+                 -->
             </div>
         </div>
     </section>
@@ -312,103 +344,73 @@
             </div>
         </div>
     </section>
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+    
+    <!-- About Section -->
+    <section id="aboutme" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Some of the things I've worked on.</h3>
+                    <h2 class="section-heading">About Me</h2>
+                    <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioNotifyMe" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/NotifyMe Icon.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>NotifyMe</h4>
-                        <p class="text-muted">iOS Application</p>
-                    </div>
+                <div class="col-sm-4">
+                    <!--<div class="team-member">
+                     <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+                     <h4>Kay Garland</h4>
+                     <p class="text-muted">Lead Designer</p>
+                     <ul class="list-inline social-buttons">
+                     <li><a href="#"><i class="fa fa-twitter"></i></a>
+                     </li>
+                     <li><a href="#"><i class="fa fa-facebook"></i></a>
+                     </li>
+                     <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                     </li>
+                     </ul>
+                     </div>
+                     -->
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioBreaker" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/me.jpg" class="img-responsive img-rounded" alt="">
+                            <h4>Gabriel Revells</h4>
+                            <p class="text-muted"></p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://github.com/gcrevell"><i class="fa fa-github"></i></a>
+                                </li>
+                                <li><a href="https://www.facebook.com/wowza7125"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li><a href="files/resume.pdf" title="Resumé"><i class="fa fa-file-text-o"></i></a>
+                                </li>
+                            </ul>
                             </div>
-                        </div>
-                        <img src="img/portfolio/breaker.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Puzzle Breaker</h4>
-                        <p class="text-muted">iOS Application</p>
-                    </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="https://github.com/gcrevell" class="portfolio-link" data-toggle="modal" target="_blank">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/GitHub.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Other</h4>
-                        <p class="text-muted">Check out my other projects on GitHub</p>
-                    </div>
+                <div class="col-sm-4">
+                    <!--
+                     <div class="team-member">
+                     <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                     <h4>Diana Pertersen</h4>
+                     <p class="text-muted">Lead Developer</p>
+                     <ul class="list-inline social-buttons">
+                     <li><a href="#"><i class="fa fa-twitter"></i></a>
+                     </li>
+                     <li><a href="#"><i class="fa fa-facebook"></i></a>
+                     </li>
+                     <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                     </li>
+                     </ul>
+                     </div>
+                     -->
                 </div>
-                <!--
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Golden</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">I am currently a senior software engineering major at Michigan Technological University. In my free time I enjoy swimming, playing board games, and programming fun things. If you want to know more about my professional life, you should proabably check out my <a href="files/resume.pdf">resumé</a> or <a class="page-scroll" href="#contact">contact me.</a>
+                    </br></br>
+                    Why ReVolt Applications? I'm not trying to start any riots or participate in any coups. It's simply a play on my last name and my nickname, Voltage. Plus, it sounds cool.
+                    </p>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                 -->
             </div>
         </div>
     </section>
